@@ -28,7 +28,8 @@ a:link{
 }
 
 .bodyimg{
-    position: absolute;
+    /*position relative, para que o tamanho seja relativo ao tamanho da tela*/
+    position: relative;
 }
 .bodyimg p{
     color:#f7f2f2;
@@ -46,7 +47,8 @@ a:link{
     width: 1600px;
     position: absolute;
     top:40%;
-    left:80%;
+    /*recuo da margim de 50% para centralizar*/
+    left:50%;
     transform: translate(-40%, -40%);
 }
 .grid{
